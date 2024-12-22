@@ -161,7 +161,7 @@ class Scraper:
             logging.error(f'Error saving data to CSV: {e}')
 
 if __name__ == "__main__":
-    email = input("enter enamil")
+    email = input("enter email")
     password = input("enter password")
 
     amazon_bot = Scraper(email, password)
